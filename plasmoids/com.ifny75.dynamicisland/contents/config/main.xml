@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <!-- Size -->
+        <entry name="expandedWidthMusic" type="Int">
+            <default>380</default>
+            <min>280</min>
+            <max>680</max>
+        </entry>
+        <entry name="expandedWidthNotification" type="Int">
+            <default>380</default>
+            <min>260</min>
+            <max>640</max>
+        </entry>
+        <entry name="expandedWidthStatus" type="Int">
+            <default>320</default>
+            <min>240</min>
+            <max>600</max>
+        </entry>
+        <entry name="expandedHeight" type="Int">
+            <default>80</default>
+            <min>64</min>
+            <max>160</max>
+        </entry>
+        <entry name="popupGap" type="Int">
+            <default>12</default>
+            <min>0</min>
+            <max>120</max>
+        </entry>
+        <entry name="cornerRadius" type="Int">
+            <default>16</default>
+            <min>6</min>
+            <max>28</max>
+        </entry>
+
+        <!-- Appearance -->
+        <entry name="backgroundEnabled" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="backgroundColor" type="String">
+            <default>#0b1622</default>
+        </entry>
+        <entry name="backgroundOpacity" type="Int">
+            <default>82</default>
+            <min>20</min>
+            <max>100</max>
+        </entry>
+        <entry name="borderEnabled" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="followSystemTheme" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="accentColor" type="String">
+            <default>#8d5cff</default>
+        </entry>
+        <entry name="idleDotColor" type="String">
+            <default>#55e36a</default>
+        </entry>
+        <entry name="sharingDotColor" type="String">
+            <default>#ffaa33</default>
+        </entry>
+
+        <!-- Clock -->
+        <entry name="use24HourClock" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="showSeconds" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="showDate" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="widgetClockSize" type="Int">
+            <default>28</default>
+            <min>10</min>
+            <max>64</max>
+        </entry>
+
+        <!-- Notifications -->
+        <entry name="notificationBodyLines" type="Int">
+            <default>2</default>
+            <min>1</min>
+            <max>4</max>
+        </entry>
+
+        <!-- Media appearance -->
+        <entry name="mediaTitleVisible" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="mediaTitleFont" type="String">
+            <default></default>
+        </entry>
+        <entry name="mediaTitleSize" type="Int">
+            <default>14</default>
+            <min>6</min>
+            <max>40</max>
+        </entry>
+        <entry name="mediaTitleWeight" type="Int">
+            <default>500</default>
+            <min>100</min>
+            <max>900</max>
+        </entry>
+        <entry name="mediaTitleColor" type="String">
+            <default></default>
+        </entry>
+        <entry name="mediaTitleScroll" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="mediaArtistVisible" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="mediaArtistFont" type="String">
+            <default></default>
+        </entry>
+        <entry name="mediaArtistSize" type="Int">
+            <default>10</default>
+            <min>6</min>
+            <max>40</max>
+        </entry>
+        <entry name="mediaArtistWeight" type="Int">
+            <default>400</default>
+            <min>100</min>
+            <max>900</max>
+        </entry>
+        <entry name="mediaArtistColor" type="String">
+            <default></default>
+        </entry>
+        <entry name="mediaArtistScroll" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="mediaArtistHideIfSame" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="mediaShowArt" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="mediaArtSize" type="Int">
+            <default>52</default>
+            <min>24</min>
+            <max>96</max>
+        </entry>
+        <entry name="mediaArtRadius" type="Int">
+            <default>8</default>
+            <min>0</min>
+            <max>48</max>
+        </entry>
+        <entry name="mediaCapsuleArtSize" type="Int">
+            <default>22</default>
+            <min>0</min>
+            <max>28</max>
+        </entry>
+        <entry name="mediaShowSeekBar" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="mediaSeekBarHeight" type="Int">
+            <default>5</default>
+            <min>1</min>
+            <max>12</max>
+        </entry>
+        <entry name="mediaShowTimes" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="mediaShowSoundBars" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="mediaShowControls" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="mediaTitleFormat" type="String">
+            <default>{title}</default>
+        </entry>
+        <entry name="mediaArtistFormat" type="String">
+            <default>{artist}</default>
+        </entry>
+        <entry name="mediaCapsuleScale" type="Int">
+            <default>85</default>
+            <min>50</min>
+            <max>150</max>
+        </entry>
+        <entry name="mediaExpandedScale" type="Int">
+            <default>100</default>
+            <min>50</min>
+            <max>200</max>
+        </entry>
+
+        <!-- Animation -->
+        <entry name="animationsEnabled" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="animationSpeed" type="Int">
+            <default>100</default>
+            <min>40</min>
+            <max>200</max>
+        </entry>
+
+        <!-- Features -->
+        <entry name="enableMedia" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="enableNotifications" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="enableKeyboard" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="enableDownloads" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="enableScreenSharing" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="ideBuildEnabled" type="Bool">
+            <default>true</default>
+        </entry>
+
+        <!-- System monitor -->
+        <entry name="enableSysMonitor" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="showCpuStat" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="showRamStat" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="showTempStat" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="sysMonitorInterval" type="Int">
+            <default>6</default>
+            <min>3</min>
+            <max>30</max>
+        </entry>
+        <entry name="showFps" type="Bool">
+            <default>false</default>
+        </entry>
+        <entry name="fpsStyle" type="String">
+            <default>accent</default>
+        </entry>
+        <entry name="sysMonitorRotateClock" type="Bool">
+            <default>true</default>
+        </entry>
+
+        <!-- Layout -->
+        <entry name="compactOrder" type="String">
+            <default>content-time-fps</default>
+        </entry>
+        <entry name="moduleSeparators" type="Bool">
+            <default>false</default>
+        </entry>
+
+        <!-- Panel -->
+        <entry name="panelEnabled" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="panelShowMode" type="String">
+            <default>idle</default>
+        </entry>
+        <entry name="panelWidgets" type="String">
+            <default>network:1:1,bluetooth:1:1,dnd:1:1,nightlight:1:1,darkmode:1:1,power:1:1,volume:3:1,brightness:3:1,media:3:2,system:3:2</default>
+        </entry>
+        <entry name="panelWidth" type="Int">
+            <default>420</default>
+            <min>320</min>
+            <max>720</max>
+        </entry>
+        <entry name="panelMaxHeight" type="Int">
+            <default>420</default>
+            <min>120</min>
+            <max>900</max>
+        </entry>
+        <entry name="panelSpacing" type="Int">
+            <default>8</default>
+            <min>0</min>
+            <max>24</max>
+        </entry>
+        <entry name="panelPadding" type="Int">
+            <default>12</default>
+            <min>0</min>
+            <max>32</max>
+        </entry>
+        <entry name="panelShowGrips" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="popupCloseOnHoverExit" type="Bool">
+            <default>false</default>
+        </entry>
+
+        <!-- Timer -->
+        <entry name="enableTimer" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="timerDefaultMinutes" type="Int">
+            <default>25</default>
+            <min>0</min>
+            <max>600</max>
+        </entry>
+        <entry name="timerDefaultSeconds" type="Int">
+            <default>0</default>
+            <min>0</min>
+            <max>59</max>
+        </entry>
+        <entry name="timerTakeOverClock" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="timerNotifyOnFinish" type="Bool">
+            <default>true</default>
+        </entry>
+    </group>
+</kcfg>
